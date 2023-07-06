@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  
+  //Responsive breakpoints
+  $media-sm: 37.5em;
+  $media-md: 53em;
+  $media-lg: 64em;
+
+@import "./components/ChatApp.scss";
